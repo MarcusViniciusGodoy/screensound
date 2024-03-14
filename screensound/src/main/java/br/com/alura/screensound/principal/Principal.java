@@ -1,4 +1,4 @@
-package principal;
+package br.com.alura.screensound.principal;
 
 import java.util.Scanner;
 
@@ -68,4 +68,3 @@ public class Principal {
 
     }
 }
-
