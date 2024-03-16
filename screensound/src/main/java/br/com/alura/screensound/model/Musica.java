@@ -13,6 +13,12 @@ public class Musica {
     @ManyToOne
     private Artista artista;
 
+    public Musica(){}
+
+    public Musica(String nomeMusic) {
+        this.titulo = nomeMusic;
+    }
+
     public Long getId() {
         return id;
     }
